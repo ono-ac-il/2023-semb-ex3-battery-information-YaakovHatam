@@ -5,8 +5,8 @@
       "setup": "npm install",
       "run": "NODE_NO_WARNINGS=1 port=15000 npx playwright test -g 'Lead Acid output'",
       "input": "",
-      "output": ".",
-      "comparison": "exact",
+      "output": "1 passed",
+      "comparison": "included",
       "timeout": 10,
       "points": 25
     }
