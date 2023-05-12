@@ -1,14 +1,14 @@
 {
   "tests": [
     {
-      "name": "Check grades",
+      "name": "First test",
       "setup": "npm install",
-      "run": "npm test",
+      "run": "NODE_NO_WARNINGS=1 port=15000 npx playwright test -g 'Lead Acid output'",
       "input": "",
-      "output": "",
-      "comparison": "included",
+      "output": ".",
+      "comparison": "exact",
       "timeout": 10,
-      "points": 100
+      "points": 25
     }
   ]
 }
