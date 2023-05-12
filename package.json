@@ -6,7 +6,7 @@
   "scripts": {
     "test": "port=15000 npx playwright test",
     "start": "http-server -p 15000",
-    "preinstall": "npx playwright install --with-deps"
+    "preinstall": "npx playwright install-deps chromium"
   },
   "keywords": [],
   "author": "",
